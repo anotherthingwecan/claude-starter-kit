@@ -44,7 +44,7 @@ ui-ux-pro-max/<버전>/
 `search.py`는 질문을 받아 관련 행만 뽑아 줍니다. 그 출력을 `refs/`에 저장하면 `analyze.py`가 그 파일만 근거로 로컬 모델에게 분석시킵니다.
 
 ```bash
-S="$HOME/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/search.py"
+S="$HOME/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.15.0/.claude/skills/ui-ux-pro-max/scripts/search.py"
 
 # 디자인 시스템 추천을 마크다운으로 저장
 python "$S" "핀테크 대시보드" --design-system --format markdown > refs/fintech-ds.md
