@@ -16,7 +16,7 @@
 
 ## 2. 폴더 구조
 ```
-ui-ux-pro-max/2.13.0/
+ui-ux-pro-max/<버전>/
 ├─ .claude/skills/
 │   ├─ ui-ux-pro-max/        ← 핵심 스킬
 │   │   ├─ SKILL.md           10단계 우선순위 규칙표 (접근성 → 터치 → 성능 → 스타일 …)
